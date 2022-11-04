@@ -13,10 +13,6 @@ const NavBar = () => {
         link: 'home'
     },
     {
-        id: 2,
-        link: 'about'
-    },
-    {
         id: 3,
         link: 'portfolio'
     },
@@ -52,7 +48,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 text-white fixed bg-black px-4">
         <h1 className='text-5xl font-signature ml-2'>
-            Peter
+            Site
         </h1>
         <ul className='hidden md:flex'>
             

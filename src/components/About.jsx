@@ -10,12 +10,13 @@ const About = () => {
                 </p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta sapiente temporibus aut eos nisi quod aliquid. Magnam dolorum vel nesciunt? Debitis quod perferendis non laboriosam, dolorem iusto delectus laudantium assumenda natus eius architecto aspernatur obcaecati in pariatur. Architecto, nostrum, maiores ducimus sint libero autem hic tempore eos, quibusdam numquam in.
+            My name is Peter Schmidt
+              I have been programming since 2015, I like creating things and finishing things in a best possible way.
+              I consider myself a team player, because I love doing things, where everybody has a role, and we all contribute something to the project.
             </p>
             <br />
             <p className='text-xl'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur iste quisquam sed ad suscipit error esse officiis architecto debitis ipsum culpa impedit voluptatum blanditiis dolorum corrupti iusto aliquam tempora dignissimos a facere magnam rerum voluptatibus, nisi veritatis! Inventore quidem, repellendus quisquam veritatis commodi ipsa asperiores ea ut omnis, sequi cumque?
-            </p>
+            My current goal is to get a challenging a job, where I could grow in different ways than I could do with little own projects.            </p>
         </div>
 
     </div>

@@ -1,36 +1,27 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
+import arrayDestruct from "../assets/portfolio/meditest.png";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      href: 'https://schmidtpeti.github.io/meditest.hu/',
+      code : 'https://github.com/SchmidtPeti/meditest.hu',
       src: arrayDestruct,
     },
     {
       id: 2,
+      href: 'https://schmidtpeti.github.io/Programming/ ',
+      code: 'https://github.com/SchmidtPeti/Programming',
       src: reactParallax,
     },
     {
       id: 3,
+      href: 'https://egyetem1.web.app/',
+      cose: 'https://github.com/SchmidtPeti/Uni_learning',
       src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
     },
   ];
 
@@ -44,6 +35,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
+          <p className="text-3xl mt-4 block">Most of my work are Hungarian</p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
